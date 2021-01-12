@@ -1,0 +1,14 @@
+.filterLabel {
+  display: block;
+  width: 500px;
+  text-align: center;
+}
+
+.filterInput {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 350px;
+}
