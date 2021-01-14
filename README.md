@@ -4,6 +4,11 @@
 - copy .huskyrc, .lintstagedrc, .prettierrc.json
 - npm install --save gh-pages
 - npm i redux
+- npm i react-redux
+- npm install --save-dev redux-devtools-extension
+- npm i redux-toolkit
+- npm i redux-persist
+- npm i redux-logger
 
 ## Getting Started with Create React App
 
