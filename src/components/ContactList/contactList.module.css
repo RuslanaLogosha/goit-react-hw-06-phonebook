@@ -1,4 +1,3 @@
-
 .list {
   width: 500px;
   text-align: center;
@@ -14,10 +13,13 @@
 }
 
 .button {
-  margin-left: 20px;
+  width: 100px;
+  height: 20px;
+  border: none;
+  border-radius: 10px;
 }
 
 .button:hover,
 .button:focus {
-    background-color: red;
-  }
+  background-color: red;
+}
