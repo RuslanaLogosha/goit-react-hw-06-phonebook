@@ -6,8 +6,6 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from './redux/store';
 
-console.log(store);
-
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
@@ -18,5 +16,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 );
-
-
