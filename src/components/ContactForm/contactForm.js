@@ -43,6 +43,7 @@ export default function ContactForm() {
 
     if (contacts.find(contact => contact.name === name)) {
       alert(`${name} is already in contacts.`);
+      reset();
       return;
     }
 
